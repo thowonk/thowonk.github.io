@@ -80,6 +80,8 @@ export default function Letters(props){
             <br/>
             <br/>
             May your hearts be your guiding keys
+            <br/>
+            <br/>
             <From>
                 Matt
             </From>
@@ -95,6 +97,8 @@ export default function Letters(props){
             <br/>
             <br/>
             To the seniors who will be in New York for another year, I am so so excited to be spending more time with you. To the seniors who are moving on to join the wider world: stay safe, stay wacky, and stay in touch. I wish you the absolute best! Congratulations again for graduating from Columbia University in the greatest city in the world, with the greatest friends in the world.
+            <br/>
+            <br/>
             <From>
                 Love,
             </From>
@@ -113,6 +117,8 @@ export default function Letters(props){
             <br/>
             <br/>
             I feel so lucky to have shared three years with you. You're the best people anyone could hope to meet in college: brilliant, generous, creative, kind, loving, and the perfect kind of quirky. You inspire me to be a better person. No matter where you're headed next, I'm grateful to have you in my life and can't wait to see you again! Congrats on graduating!
+            <br/>
+            <br/>
             <From>
                 Love,
             </From>
@@ -128,6 +134,8 @@ export default function Letters(props){
             <br/>
             <br/>
             So many congratulations to all of you for graduating!!!! I would say that I can’t wait to see what amazing things you all accomplish down the line, but I like to think we’ll still keep in touch, so I won’t :) Instead, I can’t wait to see you soon whether that’s in study sessions next semester for those of you returning, or just a visit sometime soon from the rest of you.
+            <br/>
+            <br/>
             <From>
                 So much love and pride and excitement for you!
             </From>
