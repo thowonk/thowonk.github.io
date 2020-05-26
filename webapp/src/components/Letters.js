@@ -13,7 +13,6 @@ const From = styled.div`
 const TabWrapper = styled.div`
     @media only screen and (min-width: 600px) {
         display:flex;
-        width:60vw;
         justify-content:center;
     }
 `
@@ -29,6 +28,7 @@ export default function Letters(props){
             <Tab>Matt</Tab>
             <Tab>Serena</Tab>
             <Tab>Lucie</Tab>
+            <Tab>Emma</Tab>
             </TabList>
         </TabWrapper>
     
@@ -70,13 +70,13 @@ export default function Letters(props){
             </From>
         </TabPanel>
         <TabPanel style={LetterStyle}>
-            So bear with me - as all you know I'm not really good with words either. I have spent days creating and reformulating all of the different ways to convey my appreciation that I have for yall, only to come to the conclusion that this problem has a null solution set. There exist no words in English (or any language for that matter ) that could ever accurately describe how I feel about yall. This is especially true considering I have the literary skills of a third grader - but if you know me, you know that this isn't anything new .
+            So bear with me as I'm not really good with words. Okay thats a bit generous, I actually have the literary skills of a third grader - but if you know me, you know that this isn't anything new. Regardless, I have spent days creating and reformulating all of the different ways to convey the appreciation that I have for y'all, only to come to the conclusion that this problem has a null solution set. There exist no words in English ( or any language for that matter ) that could ever accurately describe how I feel about you guys.
             <br/>
             <br/>
-            The memories I've created with all of you have come to affect me in ways I could not and still can not  believe. I only wish I could give as much back as you all have given me. Each and everyone of you has become an anchor and are my reasons to look forward to a tomorrow. I don't know where I would be without yall and it scares me to think that at one point in time there existed the possibility of never having met any of you. I admire all of you and know yall will do great things in your lives. I couldn't have picked a better family. I love you all. 
+            The memories I've created with all of you have come to affect me in ways I could not and still can not believe. I only wish I could give back to you guys as much as you all have given me. Each and everyone of you has become an anchor and are my reasons to look forward toward a future. I don't know where I would be without y'all and it scares me to think that at one point in time there existed the possibility of never having met any of you. I admire all of you and know yall will do great things in your lives. I couldn't have picked a better family. I love you all. 
             <br/>
             <br/>
-            Give it your all and never settle for anything less than the best! And no matter what distance comes between us, know that I will always be thinking of you - wherever yall are. 
+            Give it your all and never settle for anything less than the best! I am so proud of you guys and no matter what distance comes between us, know that I will always be thinking of you - wherever yall are. 
             <br/>
             <br/>
             May your hearts be your guiding keys
@@ -118,6 +118,21 @@ export default function Letters(props){
             </From>
             <From>
                 Lucie
+            </From>
+        </TabPanel>
+        <TabPanel style={LetterStyle}>
+            One of the things I was most looking forward to about Columbia was the community. It seemed like the sort of place where I could meet fun, kind, passionate people of widely varied talents to learn from and with. I didn’t expect to find that on the tech team of the Spectator, but how pleasantly surprised I am now to say that I did! You are such lovely kind people, and all the random interests you all have (sudoku solving, language learning/analyzing, theoretical math, etc.) constantly remind me how many things there are to be fascinated by. As corny as that sounds, it is really inspiring to be surrounded by people with such a love of learning.
+            <br/>
+            <br/>
+            Joining Spec was one of the best decisions I’ve made at Columbia, because it’s how I befriended all of you. Thank you for filling our campus and city with such fun times and memories, from Franzia and Jackbox in the Church and studying in Pupin 301 to karaoke in Koreatown. I’ve grown a lot from my first semester filled with some late-nighters spent on CUOracle, and that wouldn’t have been possible were it not for all of you being such great friends and influences. I am so proud to call y’all my friends!
+            <br/>
+            <br/>
+            So many congratulations to all of you for graduating!!!! I would say that I can’t wait to see what amazing things you all accomplish down the line, but I like to think we’ll still keep in touch, so I won’t :) Instead, I can’t wait to see you soon whether that’s in study sessions next semester for those of you returning, or just a visit sometime soon from the rest of you.
+            <From>
+                So much love and pride and excitement for you!
+            </From>
+            <From>
+                Emma
             </From>
         </TabPanel>
       </Tabs>
