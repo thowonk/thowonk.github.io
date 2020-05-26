@@ -141,7 +141,7 @@
       animation-name: fadeOutColor;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
-      animation-duration: 1000ms;
+      animation-duration: 2000ms;
       @keyframes fadeOutColor {
             0% {
               background: #fff;
@@ -172,7 +172,7 @@
       animation-name: fadeInOpacity;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
-      animation-duration: 1000ms;
+      animation-duration: 400ms;
       @keyframes fadeInOpacity {
             0% {
           opacity: 0;

@@ -25,8 +25,9 @@ const VisionWrapper = styled.div`
 	left:0;
 	bottom: 0;
 	right: 0;
-	@media only screen and (max-width: 600px) {
-		visibility: hidden;		
+	@media only screen and (max-width: 992px) {
+		background-image: linear-gradient(to right, #00071A,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent, #00071A);	
+
 	}
 `
 
