@@ -26,11 +26,35 @@
     /* border-color: #aaa; */
     color: #00071A;
     border-radius: 5px;
+    animation-name: fadeInColor;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2000ms;
+    @keyframes fadeInColor {
+          0% {
+        background: transparent;
+      }
+      100% {
+        background: #fff;
+          }
+      }
   }
   
   .react-tabs__tab--disabled {
     color: GrayText;
     cursor: default;
+    animation-name: fadeOutColor;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2000ms;
+    @keyframes fadeOutColor {
+          0% {
+            background: #fff;
+      }
+      100% {
+        background: transparent;
+          }
+      }
   }
   
   .react-tabs__tab:focus {
@@ -95,12 +119,39 @@
       /* border-color: #aaa; */
       color: #00071A;
       border-radius: 5px;
+      animation-name: fadeInColor;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 2000ms;
+      @keyframes fadeInColor {
+            0% {
+          background: transparent;
+        }
+        100% {
+          background: #fff;
+            }
+        }
     }
+
+    
     
     .react-tabs__tab--disabled {
       color: GrayText;
       cursor: default;
+      animation-name: fadeOutColor;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 1000ms;
+      @keyframes fadeOutColor {
+            0% {
+              background: #fff;
+        }
+        100% {
+          background: transparent;
+            }
+        }
     }
+    
     
     .react-tabs__tab:focus {
       box-shadow: 0 0 5px hsl(208, 99%, 50%);
@@ -121,7 +172,7 @@
       animation-name: fadeInOpacity;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
-      animation-duration: 400ms;
+      animation-duration: 1000ms;
       @keyframes fadeInOpacity {
             0% {
           opacity: 0;
