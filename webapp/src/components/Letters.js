@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+
 import '../Letters.css';
 
 const From = styled.div`
@@ -9,17 +10,27 @@ const From = styled.div`
     margin-right: 10px;
 `
 
+const TabWrapper = styled.div`
+    @media only screen and (min-width: 600px) {
+        display:flex;
+        width:60vw;
+        justify-content:center;
+    }
+`
+
 export default function Letters(props){
     const LetterStyle = props.numWidth > 600 ? {height: "65vh"} : props.numWidth > 350 ? {height: "50vh"} : {height: "40vh"}
     return(
         <Tabs>
-        <TabList>
-          <Tab>Rounak</Tab>
-          <Tab>Raymond</Tab>
-          <Tab>Matt</Tab>
-          <Tab>Serena</Tab>
-          <Tab>Lucie</Tab>
-        </TabList>
+        <TabWrapper >
+            <TabList>
+            <Tab>Rounak</Tab>
+            <Tab>Raymond</Tab>
+            <Tab>Matt</Tab>
+            <Tab>Serena</Tab>
+            <Tab>Lucie</Tab>
+            </TabList>
+        </TabWrapper>
     
         <TabPanel style={LetterStyle}>
             I don’t think I can fit everything I want to say to y’all in this short letter, but I do know that becoming friends with you guys was the best decision I made at Columbia, maybe ever to be honest. When I joined Spectator in my second semester, I pretty much had only four or five other friends on campus, three of whom were my suitemates. Honestly, that number hasn’t gone up a ton since then, but getting to know every one of you has more than made up for it.

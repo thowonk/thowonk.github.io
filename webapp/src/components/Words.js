@@ -99,13 +99,6 @@ export default class Words extends Component{
 			onEnter={() => this.setState({hasNotFired:false})}
 			> 
 				<TextWrapper>
-					<VizSensor
-						style={{position: "absolute", top: "0"}}
-						active={this.state.hasNotFired}
-						onChange={(isVisible) => this.updateBehavior(isVisible)}
-					>
-						<Decider/>
-					</VizSensor>
 					<Text inView={this.state.isInView}>
 						<Letter>
               				Congrats on graduating y'all! Each of us wrote a letter to you guys; find 'em linked below.
@@ -117,6 +110,13 @@ export default class Words extends Component{
 							<Letters numWidth={this.props.numWidth}/>
 						</LetterWrapper>
 					</Text>
+					<VizSensor
+						style={{position: "absolute", top: "0"}}
+						active={this.state.hasNotFired}
+						onChange={(isVisible) => this.updateBehavior(isVisible)}
+					>
+						<Decider/>
+					</VizSensor>
 				</TextWrapper>
 			</CSSTransition> 
 				
